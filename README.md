@@ -2,9 +2,9 @@
 
 ## Descripción
 
-Proyecto de Deep Learning enfocado en clasificación de imágenes utilizando redes neuronales convolucionales (CNN) sobre el dataset Fashion MNIST.
+Proyecto de Deep Learning enfocado en la clasificación de imágenes utilizando Redes Neuronales Convolucionales (CNN) sobre el dataset Fashion MNIST.
 
-El modelo fue desarrollado utilizando TensorFlow y Keras para clasificar automáticamente prendas de vestir en distintas categorías.
+El objetivo del proyecto es desarrollar y evaluar un modelo capaz de clasificar automáticamente prendas de vestir utilizando técnicas de visión computacional y Deep Learning con TensorFlow y Keras.
 
 ---
 
@@ -21,9 +21,9 @@ El modelo fue desarrollado utilizando TensorFlow y Keras para clasificar automá
 
 ## Dataset
 
-Fashion MNIST contiene imágenes en escala de grises de 28x28 píxeles pertenecientes a 10 categorías de ropa.
+Se utilizó el dataset Fashion MNIST, compuesto por imágenes en escala de grises de tamaño 28x28 pertenecientes a 10 categorías de ropa.
 
-Clases:
+### Clases del dataset
 - T-shirt/top
 - Trouser
 - Pullover
@@ -39,7 +39,7 @@ Clases:
 
 ## Arquitectura del modelo
 
-La CNN implementada incluye:
+La red neuronal convolucional implementada incluye:
 
 - Capas convolucionales
 - MaxPooling
@@ -50,12 +50,43 @@ La CNN implementada incluye:
 
 ---
 
-## Resultados
+## Procesamiento y entrenamiento
 
-- Evaluación de accuracy y loss
+- Normalización de imágenes
+- División de datos de entrenamiento y prueba
 - Comparación de funciones de activación
 - Comparación de optimizadores
-- Validación del desempeño del modelo
+- Evaluación mediante accuracy y loss
+
+---
+
+## Visualización de datos
+
+### Ejemplos del dataset
+
+![Datos](datos.jpeg)
+
+---
+
+## Curvas de entrenamiento
+
+### Accuracy y Loss durante el entrenamiento
+
+![Curvas de Entrenamiento](CurvasEntrenamiento.jpeg)
+
+---
+
+## Resultados del modelo
+
+### Evaluación del desempeño
+
+![Resultados](Resultados.jpeg)
+
+---
+
+## Resultados de entrenamiento
+
+![Resultados Entrenamiento](ResultadosEntrenamiento.jpeg)
 
 ---
 
@@ -67,7 +98,10 @@ fashion-mnist-cnn/
 ├── fashion_mnist_cnn.ipynb
 ├── README.md
 ├── requirements.txt
-└── images/
+├── CurvasEntrenamiento.jpeg
+├── Resultados.jpeg
+├── ResultadosEntrenamiento.jpeg
+└── datos.jpeg
 ```
 
 ---
